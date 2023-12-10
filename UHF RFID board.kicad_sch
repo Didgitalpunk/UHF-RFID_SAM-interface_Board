@@ -2931,10 +2931,10 @@
     (pin "3" (uuid 603104d9-a29e-4c87-a53d-5127aadbfedc))
     (pin "4" (uuid 2d68b5b0-fa11-4bba-a70f-93cbb3bff81b))
     (pin "5" (uuid 81f166f2-158f-4101-b3ab-0b23c4d0d761))
-    (pin "5" (uuid 81f166f2-158f-4101-b3ab-0b23c4d0d761))
-    (pin "5" (uuid 81f166f2-158f-4101-b3ab-0b23c4d0d761))
-    (pin "5" (uuid 81f166f2-158f-4101-b3ab-0b23c4d0d761))
-    (pin "5" (uuid 81f166f2-158f-4101-b3ab-0b23c4d0d761))
+    (pin "5" (uuid 81f166f2-158f-4101-b3ab-0b23c4d0d762))
+    (pin "5" (uuid 81f166f2-158f-4101-b3ab-0b23c4d0d763))
+    (pin "5" (uuid 81f166f2-158f-4101-b3ab-0b23c4d0d764))
+    (pin "5" (uuid 81f166f2-158f-4101-b3ab-0b23c4d0d765))
     (instances
       (project "UHF RFID board"
         (path "/d8d0a45f-1f46-4ba4-9944-4b3c9d150d73"
@@ -3213,7 +3213,7 @@
     (property "Value" "SIM_Card" (at 255.27 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "nard_sam:115c-bc00 sim simcard card connector" (at 262.89 45.72 0)
+    (property "Footprint" "Custom footprints:SIMMP-00801B000-G sim card connector" (at 262.89 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.attend.com.tw/data/download/file/115J-BCO0.pdf" (at 269.24 48.26 0)
