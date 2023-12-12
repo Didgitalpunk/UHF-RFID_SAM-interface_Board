@@ -1,5 +1,5 @@
-# UHF-RFID_NARD_Board
-A PCB for connecting UHF-RFID readers to your flipper, and part of a NARD board to interface with a SAM.
+# UHF-RFID SAM interface Board
+A PCB for connecting UHF-RFID readers to your flipper, and a SEC1210 iC to allow you to interface and use a SAM.
 Also has a 10 pin ICSP header and SPI header to use with various FAPs.
 
 This board is made for the flipper zero and uses https://github.com/frux-c/uhf_rfid for the UHF-RFID part, and https://github.com/bettse/seader for the NARD part.
