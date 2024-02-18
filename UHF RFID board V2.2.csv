@@ -1,0 +1,41 @@
+Reference,Value,Footprint,Source,Qty
+"C1, C3, C5, C8",1uF,Capacitor_SMD:C_0402_1005Metric,https://www.mouser.fr/ProductDetail/Murata-Electronics/GRM155R61C105KA12J?qs=hNud%2FORuBR0BebdCvsO0Bw%3D%3D,4
+"C2, C6, C9",0.1uF,Capacitor_SMD:C_0402_1005Metric,https://www.mouser.fr/ProductDetail/581-KGM05AR51A104KH,3
+"C4, C7",10uF,Capacitor_SMD:C_0402_1005Metric,https://www.mouser.fr/ProductDetail/81-GRM155R61A106ME1J,2
+D1,LED,Custom LEDs:side-edge mount,https://www.mouser.fr/ProductDetail/604-APA1606VRBXF5MAV,1
+"eSAM1, eSAM2",~,Custom footprints:DFN-8-splitEP_5x5mm_P1.27mm_EP2.5x4mm,,2
+J1-1,FZ_full_module-1,Flipper modules:FZ full module,https://www.mouser.fr/ProductDetail/855-M20-9961045,1
+J1-2,FZ_full_module-2,,https://www.mouser.fr/ProductDetail/855-M20-9960845,1
+J2,picoblade,Connector_Molex:Molex_PicoBlade_53261-0571_1x05-1MP_P1.25mm_Horizontal,https://www.mouser.fr/ProductDetail/Molex/53261-0571?qs=Z4ettq%2Fvyk9tUNWvtq%2FUoA%3D%3D,1
+J3,SPI,Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical,https://www.mouser.fr/ProductDetail/Harwin/M20-9950445?qs=WS5Jv%252B%252Bx1qUpJ0yV%252BQiEtg%3D%3D,1
+J4,ICSP,Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical,https://www.mouser.fr/ProductDetail/Harwin/M20-9950345?qs=%252Bk6%2F5FB6qrkhHG1%252BkQ5u%252BQ%3D%3D,1
+L1,2A/0.05DCR,Inductor_SMD:L_0603_1608Metric,https://www.mouser.fr/ProductDetail/Murata-Electronics/BLM18EG221SN1D?qs=uSeJpk%2F8In2DDeSj2a4KGA%3D%3D,1
+R1,1M,Resistor_SMD:R_0402_1005Metric,DNP,0
+R2,100K,Resistor_SMD:R_0402_1005Metric,https://www.mouser.fr/ProductDetail/Bourns/CR0402-FX-1003GLF?qs=URDPQ%2Fj0cz1ZruPSJQ7fsA%3D%3D,1
+"R3, R5",43R,Resistor_SMD:R_0402_1005Metric,https://www.mouser.fr/ProductDetail/?qs=ePR1ZvdkOKKmGsQnUArpPA%3D%3D,2
+R4,10k,Resistor_SMD:R_0603_1608Metric,https://www.mouser.fr/ProductDetail/652-CR0603-JW-103ELF,1
+R6,330R,Resistor_SMD:R_0402_1005Metric,https://www.mouser.fr/ProductDetail/Bourns/CR0402-FX-3300GLF?qs=SFHnMgm9IsyaL104gdTOhg%3D%3D,1
+"SAM1, SAM2",SIM_Card,Custom footprints:SIMMP-00801B000-G sim card connector w plated holes,https://fr.farnell.com/multicomp/simmp-00601b000-g/connecteur-mini-sim-6pin/dp/2211802?st=sim,2
+U1,YRM1001,RFID_NFC_footprints:UHF_RFID_35x35_YRM1001_module_through-board no_header with mounting holes 35-40,https://fr.aliexpress.com/item/1005005296512846.html,1
+U2,SEC1210,Package_DFN_QFN:QFN-24-1EP_5x5mm_P0.65mm_EP3.2x3.2mm,https://www.mouser.fr/ProductDetail/Microchip-Technology/SEC1210-I-PV-UR2?qs=Gd3Cm49KlLPWS64hHCSBQA%3D%3D,1
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
