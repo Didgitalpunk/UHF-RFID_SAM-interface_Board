@@ -23,6 +23,9 @@
     ],
     "design_settings": {
       "defaults": {
+        "apply_defaults_to_fp_fields": false,
+        "apply_defaults_to_fp_shapes": false,
+        "apply_defaults_to_fp_text": false,
         "board_outline_line_width": 0.09999999999999999,
         "copper_line_width": 0.19999999999999998,
         "copper_text_italic": false,
@@ -55,8 +58,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.8,
-          "width": 1.3
+          "height": 1.27,
+          "width": 0.61
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -77,21 +80,19 @@
         }
       ],
       "drc_exclusions": [
-        "annular_width|155890000|107120000|cee99032-5908-4939-abaa-c06a01eecd0c|00000000-0000-0000-0000-000000000000",
-        "annular_width|155996856|121025012|07cb441d-7902-4e6b-ab6f-7638d1849dee|00000000-0000-0000-0000-000000000000",
+        "annular_width|155890000|107120000|66200cb3-71b2-4fd9-b9df-ad7f82f84db6|00000000-0000-0000-0000-000000000000",
+        "annular_width|155996856|121025012|a188a9db-367c-4f8e-a379-16a903e67008|00000000-0000-0000-0000-000000000000",
         "annular_width|160400000|130400000|2aadb4c8-874c-44bf-8c4f-ac25a458ed80|00000000-0000-0000-0000-000000000000",
         "annular_width|167200000|130400000|e65150dc-d947-42ac-a82a-8e908e44de25|00000000-0000-0000-0000-000000000000",
-        "annular_width|169563144|121021278|e1567f1a-8bf8-4289-85bb-98b9c9617131|00000000-0000-0000-0000-000000000000",
-        "annular_width|169670000|107123734|3a43f881-d68d-4913-a69d-2daa41cfcb7b|00000000-0000-0000-0000-000000000000",
-        "clearance|131499000|107666200|e48091db-4089-4b8a-ac87-448aa40aad37|5b62e6f0-8783-40fd-9452-6a565eb8b3a9",
-        "clearance|131570000|107750000|0ffcc56f-72d1-429a-9ad9-38cf04f38f67|080c5d57-4fe3-4a96-8cbc-6c6bbb761881",
-        "clearance|131570000|118300000|d5b4dc65-77d3-4ee7-a228-20b66ec5d933|080c5d57-4fe3-4a96-8cbc-6c6bbb761881",
-        "clearance|142069000|107666200|36b96580-30b1-4f00-897e-4f39a8fb0943|5b62e6f0-8783-40fd-9452-6a565eb8b3a9",
-        "clearance|142069000|118236200|50dff5ed-1b7f-4063-87e1-997dc4217123|5b62e6f0-8783-40fd-9452-6a565eb8b3a9",
-        "clearance|142120000|107750000|a041dec3-2fda-4b02-8bc4-9d30d32dc4af|080c5d57-4fe3-4a96-8cbc-6c6bbb761881",
+        "annular_width|169563144|121021278|06e0c62c-b839-4be1-9597-ac918ca190da|00000000-0000-0000-0000-000000000000",
+        "annular_width|169670000|107123734|d9c45b0f-a762-428b-9b3b-a9e42c9d55bc|00000000-0000-0000-0000-000000000000",
+        "clearance|131499000|107666200|5b62e6f0-8783-40fd-9452-6a565eb8b3a9|e48091db-4089-4b8a-ac87-448aa40aad37",
+        "clearance|142069000|107666200|5b62e6f0-8783-40fd-9452-6a565eb8b3a9|36b96580-30b1-4f00-897e-4f39a8fb0943",
+        "clearance|142069000|118236200|5b62e6f0-8783-40fd-9452-6a565eb8b3a9|50dff5ed-1b7f-4063-87e1-997dc4217123",
         "courtyards_overlap|172556101|105096701|9cef9cb2-040d-4ea5-96c9-926680953d66|a47f2e54-ec3d-48c9-b087-7521f2509ab0",
         "courtyards_overlap|175516099|106429001|a47f2e54-ec3d-48c9-b087-7521f2509ab0|dc25f31b-f1f9-44cc-93e0-64c526d453ea",
-        "footprint_type_mismatch|162815000|95600000|e9259ff2-1182-4955-9e03-105d3b04a363|00000000-0000-0000-0000-000000000000",
+        "footprint_type_mismatch|158970000|117423734|2ce96754-03fb-4b0e-853c-b85043a67520|00000000-0000-0000-0000-000000000000",
+        "footprint_type_mismatch|166590000|117420000|27d3480e-6c7d-41c2-8fe2-b16f5455ae8d|00000000-0000-0000-0000-000000000000",
         "lib_footprint_issues|183235298|115361873|95441e34-df9a-41b2-9009-bc689499b3d5|00000000-0000-0000-0000-000000000000",
         "lib_footprint_issues|183306363|130907381|2c78c9c3-dbdb-4c01-8c5e-bb3ab350be2e|00000000-0000-0000-0000-000000000000",
         "lib_footprint_mismatch|150040000|133142500|fb2f5fcc-17ed-4c2e-a28b-a07168af29f5|00000000-0000-0000-0000-000000000000",
@@ -99,15 +100,17 @@
         "lib_footprint_mismatch|159670000|119380000|60ad64d2-08f4-4ffb-8e1d-274d5c3aa6d5|00000000-0000-0000-0000-000000000000",
         "lib_footprint_mismatch|160591000|119380000|4431e51e-df41-47ca-bce5-5c7bdec92b89|00000000-0000-0000-0000-000000000000",
         "lib_footprint_mismatch|162040000|118940001|2e94eb9a-4ec8-4fb0-90fb-75d7116cbbf5|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|162815000|96275000|e9259ff2-1182-4955-9e03-105d3b04a363|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|163710000|123910000|019f6cbd-b823-4a69-995b-a72597d9a75a|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|165750000|127175000|4cc56553-0365-4a77-857b-29910ffe4c39|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|166370000|123720000|65094196-5ac3-45fb-8e4a-9c94f2fdfc22|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|174039397|100901700|9cef9cb2-040d-4ea5-96c9-926680953d66|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|174039397|112029000|dc25f31b-f1f9-44cc-93e0-64c526d453ea|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|176320000|125710000|43b020b8-0573-47dc-9f0b-e73cd117aab2|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|162800000|97250000|938930e4-1d03-4422-ac7b-8718db05f310|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|164180000|123770000|019f6cbd-b823-4a69-995b-a72597d9a75a|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|165430000|124990000|0cb95d47-839b-42c1-93a6-f6b71605b188|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|166950000|123770000|65094196-5ac3-45fb-8e4a-9c94f2fdfc22|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|167290000|124990000|58fc4ae0-567e-4567-a669-d352afe9cea8|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|167890000|127800000|4cc56553-0365-4a77-857b-29910ffe4c39|00000000-0000-0000-0000-000000000000",
+        "shorting_items|131570000|107750000|0ffcc56f-72d1-429a-9ad9-38cf04f38f67|080c5d57-4fe3-4a96-8cbc-6c6bbb761881",
+        "shorting_items|131570000|118300000|d5b4dc65-77d3-4ee7-a228-20b66ec5d933|080c5d57-4fe3-4a96-8cbc-6c6bbb761881",
+        "shorting_items|142120000|107750000|a041dec3-2fda-4b02-8bc4-9d30d32dc4af|080c5d57-4fe3-4a96-8cbc-6c6bbb761881",
         "unconnected_items|121369000|93596199|33d88777-1092-4c73-84b9-13726723a954|b7de5a59-0bd7-4efb-98b4-178bcc3da448",
-        "unconnected_items|157369000|93596200|19220d1e-a7ab-4e20-817b-54f826b7f524|b7de5a59-0bd7-4efb-98b4-178bcc3da448",
+        "unconnected_items|161333233|95966276|b7de5a59-0bd7-4efb-98b4-178bcc3da448|19220d1e-a7ab-4e20-817b-54f826b7f524",
         "via_dangling|163500000|129900000|8c650f31-e17c-4900-8058-fa808f478f6c|00000000-0000-0000-0000-000000000000",
         "via_dangling|164600000|129900000|8ba299b9-0c4e-4197-b66d-3cc078de6b1d|00000000-0000-0000-0000-000000000000"
       ],
@@ -127,6 +130,7 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
+        "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "warning",
         "hole_clearance": "ignore",
         "hole_near_hole": "ignore",
@@ -190,9 +194,6 @@
       },
       "teardrop_options": [
         {
-          "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 5,
-          "td_on_pad_in_zone": false,
           "td_onpadsmd": true,
           "td_onroundshapesonly": false,
           "td_ontrackend": false,
@@ -201,29 +202,35 @@
       ],
       "teardrop_parameters": [
         {
+          "td_allow_use_two_tracks": true,
           "td_curve_segcount": 5,
           "td_height_ratio": 1.0,
           "td_length_ratio": 1.0,
           "td_maxheight": 2.0,
           "td_maxlen": 3.0,
+          "td_on_pad_in_zone": false,
           "td_target_name": "td_round_shape",
           "td_width_to_size_filter_ratio": 0.9
         },
         {
+          "td_allow_use_two_tracks": true,
           "td_curve_segcount": 5,
           "td_height_ratio": 1.0,
           "td_length_ratio": 1.0,
           "td_maxheight": 2.0,
           "td_maxlen": 3.0,
+          "td_on_pad_in_zone": false,
           "td_target_name": "td_rect_shape",
           "td_width_to_size_filter_ratio": 0.9
         },
         {
+          "td_allow_use_two_tracks": true,
           "td_curve_segcount": 5,
           "td_height_ratio": 1.0,
           "td_length_ratio": 1.0,
           "td_maxheight": 2.0,
           "td_maxlen": 3.0,
+          "td_on_pad_in_zone": false,
           "td_target_name": "td_track_end",
           "td_width_to_size_filter_ratio": 0.9
         }
@@ -231,6 +238,32 @@
       "track_widths": [
         0.0
       ],
+      "tuning_pattern_settings": {
+        "diff_pair_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 1.0
+        },
+        "diff_pair_skew_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 0.6
+        },
+        "single_track_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 0.6
+        }
+      },
       "via_dimensions": [
         {
           "diameter": 0.0,
@@ -239,6 +272,13 @@
       ],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
+    },
+    "ipc2581": {
+      "dist": "",
+      "distpn": "",
+      "internal_id": "",
+      "mfg": "",
+      "mpn": ""
     },
     "layer_presets": [
       {
@@ -579,14 +619,75 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
+      "plot": "",
+      "pos_files": "",
       "specctra_dsn": "",
-      "step": "UHF RFID board V2.0.step",
+      "step": "UHF RFID board V2.0 test.step",
+      "svg": "",
       "vrml": "UHF RFID board.wrl"
     },
     "page_layout_descr_file": ""
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_fmt_presets": [],
+    "bom_fmt_settings": {
+      "field_delimiter": ",",
+      "keep_line_breaks": false,
+      "keep_tabs": false,
+      "name": "CSV",
+      "ref_delimiter": ",",
+      "ref_range_delimiter": "",
+      "string_delimiter": "\""
+    },
+    "bom_presets": [],
+    "bom_settings": {
+      "exclude_dnp": false,
+      "fields_ordered": [
+        {
+          "group_by": false,
+          "label": "Reference",
+          "name": "Reference",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Value",
+          "name": "Value",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "DNP",
+          "name": "${DNP}",
+          "show": true
+        }
+      ],
+      "filter_string": "",
+      "group_symbols": true,
+      "name": "Grouped By Value",
+      "sort_asc": true,
+      "sort_field": "Reference"
+    },
+    "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
       "dashed_lines_gap_length_ratio": 3.0,
@@ -600,6 +701,11 @@
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
       "label_size_ratio": 0.375,
+      "operating_point_overlay_i_precision": 3,
+      "operating_point_overlay_i_range": "~A",
+      "operating_point_overlay_v_precision": 3,
+      "operating_point_overlay_v_range": "~V",
+      "overbar_offset_ratio": 1.23,
       "pin_symbol_size": 25.0,
       "text_offset_ratio": 0.15
     },
@@ -625,6 +731,7 @@
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
     "spice_save_all_currents": false,
+    "spice_save_all_dissipations": false,
     "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0
@@ -632,7 +739,7 @@
   "sheets": [
     [
       "d8d0a45f-1f46-4ba4-9944-4b3c9d150d73",
-      ""
+      "Root"
     ]
   ],
   "text_variables": {}
