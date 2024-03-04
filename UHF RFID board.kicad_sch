@@ -4449,6 +4449,10 @@
 		(uuid "284c6e36-871c-45f9-95ce-bf55fd718af2")
 	)
 	(no_connect
+		(at 93.98 39.37)
+		(uuid "35c34458-2109-46db-b81a-dbe2fdfbfbdb")
+	)
+	(no_connect
 		(at 195.58 78.74)
 		(uuid "4f64b184-f987-43d5-b752-cfd8898365a3")
 	)
@@ -4467,6 +4471,10 @@
 	(no_connect
 		(at 195.58 35.56)
 		(uuid "8c9730f5-ab2d-4a5b-82b6-1ae9ce093d8f")
+	)
+	(no_connect
+		(at 93.98 41.91)
+		(uuid "8db567fa-0378-49af-b90f-a073039b6846")
 	)
 	(no_connect
 		(at 105.41 113.03)
@@ -6092,7 +6100,7 @@
 		)
 		(uuid "ff1896d4-2fe4-4970-9183-5ce56dc598f6")
 	)
-	(text "Place R1\nWhen no activity show is needed\nor\nPlace R6 and D1\nTo show activity"
+	(text "Place R1\nWhen no activity show is needed\nor\nPlace R6 and D1 and D2\nTo show activity. ACTIVITY DOES NOT WORK ON SEC1210 UART version."
 		(exclude_from_sim no)
 		(at 145.034 133.096 0)
 		(effects
@@ -6105,7 +6113,7 @@
 	)
 	(text "2.05V/20mA	hyper red, green, super bright yellow\n2.8V/5mA 	Blue"
 		(exclude_from_sim no)
-		(at 162.814 138.176 0)
+		(at 176.022 136.398 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6141,6 +6149,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(italic yes)
 			)
 			(justify left bottom)
 		)
@@ -6449,6 +6458,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(italic yes)
 			)
 			(justify left bottom)
 		)
@@ -7954,8 +7964,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "47592043-31a8-4cb8-8592-f983354b7a6f")
 		(property "Reference" "D2"
 			(at 149.86 118.11 0)
@@ -10964,9 +10974,9 @@
 		(at 154.94 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "bced54b3-e533-4d5b-8c4d-bd058aa2fc97")
 		(property "Reference" "R1"
 			(at 149.86 106.68 90)
@@ -11554,8 +11564,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "e3391d73-e3cc-4d8c-a4c6-fdc733e627a7")
 		(property "Reference" "D1"
 			(at 149.86 113.03 0)
@@ -11832,8 +11842,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "eac68549-4261-4f7a-85ee-48ede89b0b72")
 		(property "Reference" "R7"
 			(at 163.83 111.76 90)
