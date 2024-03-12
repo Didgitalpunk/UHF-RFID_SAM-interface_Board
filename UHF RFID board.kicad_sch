@@ -6111,6 +6111,47 @@
 		)
 		(uuid "0b5c0afa-1b27-41d3-a9ee-f1b36bec82d8")
 	)
+	(text "3/12/2023"
+		(exclude_from_sim no)
+		(at 212.09 193.294 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "20c255eb-a6f7-43e4-96ee-8be3b244eb29")
+	)
+	(text "Version 2.5"
+		(exclude_from_sim no)
+		(at 275.336 193.294 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "54bb44f5-dce8-44d2-8daf-884b6f020a0b")
+	)
+	(text "Freya Mutschler"
+		(exclude_from_sim no)
+		(at 185.928 174.752 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9eef4059-91a3-4aa4-80d1-bb34a005fcbf")
+	)
+	(text "UHF | RFID | SAM board Version 2.5"
+		(exclude_from_sim no)
+		(at 217.678 171.196 0)
+		(effects
+			(font
+				(face "Verdana")
+				(size 3 3)
+			)
+		)
+		(uuid "b01eeb81-6d25-41d8-a121-c165c2d3dcf7")
+	)
 	(text "2.05V/20mA	hyper red, green, super bright yellow\n2.8V/5mA 	Blue"
 		(exclude_from_sim no)
 		(at 176.022 136.398 0)
