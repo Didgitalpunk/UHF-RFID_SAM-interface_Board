@@ -4377,12 +4377,6 @@
 		(uuid "d3ba1722-42b0-4505-af6b-e62cdf3bedd4")
 	)
 	(junction
-		(at 135.89 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d7ec2ebb-9cbf-426c-a4c4-82b7881bcaee")
-	)
-	(junction
 		(at 167.64 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4599,6 +4593,16 @@
 			(type default)
 		)
 		(uuid "0bf153b2-c375-4438-92cd-0d0b26eca60f")
+	)
+	(wire
+		(pts
+			(xy 125.73 172.72) (xy 135.89 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c314878-b998-444d-92bb-77a262b67b5e")
 	)
 	(wire
 		(pts
@@ -4839,16 +4843,6 @@
 			(type default)
 		)
 		(uuid "2f423175-195f-4043-b120-bcf6872f6188")
-	)
-	(wire
-		(pts
-			(xy 135.89 165.1) (xy 140.97 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "339eb7d7-80d8-430d-bd31-d9c3d182e37f")
 	)
 	(wire
 		(pts
@@ -5162,16 +5156,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 161.29) (xy 125.73 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61d615f0-6f14-4910-9e25-b3942db99a79")
-	)
-	(wire
-		(pts
 			(xy 229.87 46.99) (xy 238.76 46.99)
 		)
 		(stroke
@@ -5269,16 +5253,6 @@
 			(type default)
 		)
 		(uuid "74993827-0cec-49fb-9e5c-09a0e574ca40")
-	)
-	(wire
-		(pts
-			(xy 135.89 172.72) (xy 125.73 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "752d7338-8846-4b87-992f-debae915f726")
 	)
 	(wire
 		(pts
@@ -5532,6 +5506,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 161.29) (xy 125.73 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96983763-569f-418f-ac03-cbbfb3df48a1")
+	)
+	(wire
+		(pts
 			(xy 236.22 49.53) (xy 236.22 62.23)
 		)
 		(stroke
@@ -5779,16 +5763,6 @@
 			(type default)
 		)
 		(uuid "c9306115-23cb-49fb-9ada-452621690d52")
-	)
-	(wire
-		(pts
-			(xy 135.89 170.18) (xy 135.89 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc55aa84-ed4e-4616-aa1c-d559d4b116b5")
 	)
 	(wire
 		(pts
@@ -6517,7 +6491,7 @@
 		(uuid "e557fd68-c7fb-4f4b-b8c7-99096b1da568")
 	)
 	(label "EN"
-		(at 127 172.72 0)
+		(at 125.73 166.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7935,7 +7909,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "42f1ab77-01d4-4158-a9ef-c27a6a2b3520")
 		(property "Reference" "JP1"
@@ -9648,7 +9622,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "https://www.mouser.fr/ProductDetail/?qs=ePR1ZvdkOKKmGsQnUArpPA%3D%3D"
+		(property "mouser" "https://www.mouser.fr/ProductDetail/Bourns/CR0402-FX-43R0GLF?qs=ePR1ZvdkOKKmGsQnUArpPA%3D%3D"
 			(at 146.05 77.47 0)
 			(effects
 				(font
@@ -9812,7 +9786,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 135.89 165.1 270)
+		(at 135.89 170.18 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9820,7 +9794,7 @@
 		(dnp no)
 		(uuid "89b8d193-7be8-4a32-8010-d10520d0224d")
 		(property "Reference" "#PWR08"
-			(at 129.54 165.1 0)
+			(at 129.54 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9829,7 +9803,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.08 165.1 90)
+			(at 132.08 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9838,7 +9812,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 165.1 0)
+			(at 135.89 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9847,7 +9821,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 165.1 0)
+			(at 135.89 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9856,7 +9830,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 135.89 165.1 0)
+			(at 135.89 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10487,7 +10461,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9c001da2-81fe-4eda-9bf8-378762b19eab")
 		(property "Reference" "U1"
 			(at 41.91 127 0)
@@ -10720,7 +10694,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "https://www.mouser.fr/ProductDetail/?qs=ePR1ZvdkOKKmGsQnUArpPA%3D%3D"
+		(property "mouser" "https://www.mouser.fr/ProductDetail/Bourns/CR0402-FX-43R0GLF?qs=ePR1ZvdkOKKmGsQnUArpPA%3D%3D"
 			(at 144.78 54.61 90)
 			(effects
 				(font
@@ -11044,7 +11018,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "DNP"
+		(property "Datasheet" "~"
 			(at 154.94 107.95 0)
 			(effects
 				(font
@@ -11089,7 +11063,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
+		(property "mouser" "https://www.mouser.fr/ProductDetail/652-CR0402FX-1004GLF"
 			(at 154.94 107.95 0)
 			(effects
 				(font
@@ -11250,6 +11224,72 @@
 			(project "UHF RFID board"
 				(path "/d8d0a45f-1f46-4ba4-9944-4b3c9d150d73"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 140.97 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4659275-8504-4e73-95c0-952ec4601837")
+		(property "Reference" "#PWR019"
+			(at 140.97 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 189.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8c005aa-bf73-499e-8d37-ab5ddaf28da0")
+		)
+		(instances
+			(project "UHF RFID board"
+				(path "/d8d0a45f-1f46-4ba4-9944-4b3c9d150d73"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -11989,6 +12029,7 @@
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x05")
 		(at 140.97 175.26 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11996,7 +12037,7 @@
 		(dnp no)
 		(uuid "f03d8f1b-23ba-44bf-9f59-6bb9d813e952")
 		(property "Reference" "J2"
-			(at 143.51 173.99 0)
+			(at 143.51 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12005,7 +12046,7 @@
 			)
 		)
 		(property "Value" "picoblade"
-			(at 143.51 176.53 0)
+			(at 143.51 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
