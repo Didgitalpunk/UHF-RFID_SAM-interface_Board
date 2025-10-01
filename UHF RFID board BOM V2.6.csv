@@ -1,0 +1,16 @@
+Reference,Value,Footprint,Qty,DNP,#,Digikey,mouser
+C1 C3 C5 C8,1uF,Capacitor_SMD:C_0402_1005Metric,4,,1,,https://www.mouser.fr/ProductDetail/Murata-Electronics/GRM155R61C105KA12J?qs=hNud%2FORuBR0BebdCvsO0Bw%3D%3D
+C2 C6 C9,0.1uF,Capacitor_SMD:C_0402_1005Metric,3,,2,,https://www.mouser.fr/ProductDetail/581-KGM05AR51A104KH
+C4 C7,10uF,Capacitor_SMD:C_0402_1005Metric,2,,3,,https://www.mouser.fr/ProductDetail/81-GRM155R61A106ME1J
+J1a,FZ_full_module,Flipper modules:FZ full module,1,,4,,https://www.mouser.fr/ProductDetail/855-M20-9960845
+J1b,FZ_full_module,Flipper modules:FZ full module,1,,5,,https://www.mouser.fr/ProductDetail/855-M20-9961045
+J2,picoblade,Connector_Molex:Molex_PicoBlade_53261-0571_1x05-1MP_P1.25mm_Horizontal,1,,6,,https://www.mouser.fr/ProductDetail/Molex/53261-0571?qs=Z4ettq%2Fvyk9tUNWvtq%2FUoA%3D%3D
+J3,SPI,Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical,1,,7,,https://www.mouser.fr/ProductDetail/Harwin/M20-9950445?qs=WS5Jv%252B%252Bx1qUpJ0yV%252BQiEtg%3D%3D
+J4,ICSP,Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical,1,,8,,https://www.mouser.fr/ProductDetail/Harwin/M20-9950345?qs=%252Bk6%2F5FB6qrkhHG1%252BkQ5u%252BQ%3D%3D
+L1,2A/0.05DCR,Inductor_SMD:L_0603_1608Metric,1,,9,,https://www.mouser.fr/ProductDetail/Murata-Electronics/BLM18EG221SN1D?qs=uSeJpk%2F8In2DDeSj2a4KGA%3D%3D
+R1,1M,Resistor_SMD:R_0402_1005Metric,1,,10,,https://www.mouser.fr/ProductDetail/652-CR0402FX-1004GLF
+R2,100K,Resistor_SMD:R_0402_1005Metric,1,,11,,https://www.mouser.fr/ProductDetail/Bourns/CR0402-FX-1003GLF?qs=URDPQ%2Fj0cz1ZruPSJQ7fsA%3D%3D
+R3 R5,43R,Resistor_SMD:R_0402_1005Metric,2,,12,,https://www.mouser.fr/ProductDetail/Bourns/CR0402-FX-43R0GLF?qs=ePR1ZvdkOKKmGsQnUArpPA%3D%3D
+R4,10k,Resistor_SMD:R_0603_1608Metric,1,,13,,https://www.mouser.fr/ProductDetail/652-CR0603-JW-103ELF
+SAM1 SAM2,SIM_Card,Custom footprints:SIMMP-00801B000-G + 711S1615A01LF,2,,14,https://www.digikey.com/en/products/detail/amphenol-cs-fci/7111S1615A01LF/1001714,https://www.mouser.fr/ProductDetail/Amphenol-FCI/7111S1615A01LF?qs=l%252BQQIxQu6ZfOt9V6HtLBIg%3D%3D
+U2,SEC1210,Package_DFN_QFN:QFN-24-1EP_5x5mm_P0.65mm_EP3.2x3.2mm,1,,15,,https://www.mouser.fr/ProductDetail/Microchip-Technology/SEC1210-I-PV-UR2?qs=Gd3Cm49KlLPWS64hHCSBQA%3D%3D
